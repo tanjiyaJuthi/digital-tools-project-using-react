@@ -1,3 +1,4 @@
+import { toast } from "react-toastify";
 import check from "../../assets/check.png";
 
 const DigitalToolsProductsCard = ({ 
@@ -22,8 +23,12 @@ const DigitalToolsProductsCard = ({
       // console.log(updatedProduct);
 
       setCarts(updatedProduct);
+
+      toast(`${product.name} Has Removed From Cart!`);
     } else { 
       setCarts([...carts, product]);
+
+      toast(`${product.name} Has Added To Cart!`);
     }
   };
 

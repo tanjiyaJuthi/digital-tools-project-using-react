@@ -8,6 +8,7 @@ import Pricing from './components/Pricing/Pricing';
 import TransformWorkflow from './components/TransformWorkflow/TransformWorkflow';
 import Footer from './components/Footer/Footer';
 import { useState } from 'react';
+import { ToastContainer } from 'react-toastify';
 
 const getProducts = async () => {
   const products = await fetch('/digitalTools.json');
@@ -42,6 +43,8 @@ function App() {
       <Pricing />
       <TransformWorkflow />
       <Footer />
+
+      <ToastContainer />
     </>
   )
 }

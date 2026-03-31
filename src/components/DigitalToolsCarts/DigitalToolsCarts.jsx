@@ -1,17 +1,23 @@
 import React from 'react';
 import DigitalToolsCartsCard from '../DigitalToolsCartsCard/DigitalToolsCartsCard';
+import { toast } from 'react-toastify';
 
 const DigitalToolsCarts = ({ carts = [], setCarts }) => {
     const totalPrice = carts.reduce((sum, item) => sum + item.price, 0);
 
     const handleRemove = (id) => {
+        const removedItem = carts.find(item => item.id === id);
         const updatedCart = carts.filter(item => item.id !== id);
 
         setCarts(updatedCart);
+
+        toast(`${removedItem?.name} Has Been Removed From Cart!`);
     };
 
     const handlePayment = () => {
         setCarts([]);
+
+        toast('Proceed To Checkout!');
     };
 
     return (
@@ -41,7 +47,7 @@ const DigitalToolsCarts = ({ carts = [], setCarts }) => {
 
                         <button
                             onClick={handlePayment}
-                            className="primary-btn rounded-4xl p-4 text-center w-full"
+                            className="cursor-pointer primary-btn rounded-4xl p-4 text-center w-full"
                         >
                             Proceed to Checkout
                         </button>
