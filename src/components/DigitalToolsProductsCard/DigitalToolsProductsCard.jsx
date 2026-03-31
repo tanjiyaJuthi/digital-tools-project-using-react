@@ -20,8 +20,6 @@ const DigitalToolsProductsCard = ({
     if (boughtProduct) {
       const updatedProduct = carts.filter(item => item.id !== product.id);
 
-      // console.log(updatedProduct);
-
       setCarts(updatedProduct);
 
       toast(`${product.name} Has Removed From Cart!`);
