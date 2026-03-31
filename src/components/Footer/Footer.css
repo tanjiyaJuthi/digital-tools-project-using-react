@@ -1,0 +1,12 @@
+.footer-container p,
+.footer-container ul > li {
+    color: #fafafa !important;
+}
+.footer-container .copyright ul > li,
+.footer-container .copyright p {
+    color: #627382 !important;
+}
+
+.footer-container ul > li {
+    margin-top: 16px;
+}

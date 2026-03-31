@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "name": "AI Writing Pro",
+        "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
+        "price": 29,
+        "period": "Mo",
+        "tag": "Best Seller",
+        "tagType": "best-seller",
+        "features": [
+        "Unlimited AI generations",
+        "50+ writing templates",
+        "Grammar checker"
+        ],
+        "img": "../src/assets/products/design-tool.png"
+    },
+    {
+        "id": 2,
+        "name": "Resume Builder AI",
+        "description": "Create ATS-friendly resumes and cover letters with smart AI suggestions.",
+        "price": 19,
+        "period": "One-time",
+        "tag": "Popular",
+        "tagType": "popular",
+        "features": [
+        "100+ templates",
+        "ATS optimization",
+        "Export to PDF"
+        ],
+        "img": "../src/assets/products/operation.png"
+    },
+    {
+        "id": 3,
+        "name": "AI Image Generator",
+        "description": "Turn your ideas into stunning visuals using powerful AI image generation.",
+        "price": 39,
+        "period": "Yearly",
+        "tag": "New",
+        "tagType": "new",
+        "features": [
+        "Unlimited image generation",
+        "HD downloads",
+        "Style customization"
+        ],
+        "img": "../src/assets/products/portfolio.png"
+    },
+    {
+        "id": 4,
+        "name": "Social Media Booster",
+        "description": "Create engaging social media posts and captions tailored for each platform.",
+        "price": 15,
+        "period": "Mo",
+        "tag": "Popular",
+        "tagType": "popular",
+        "features": [
+        "Platform-specific content",
+        "Hashtag generator",
+        "Post scheduler"
+        ],
+        "img": "../src/assets/products/shopping-cart.png"
+    },
+    {
+        "id": 5,
+        "name": "AI Code Assistant",
+        "description": "Speed up development with intelligent code suggestions and debugging help.",
+        "price": 49,
+        "period": "Mo",
+        "tag": "Best Seller",
+        "tagType": "best-seller",
+        "features": [
+        "Multi-language support",
+        "Auto debugging",
+        "Code optimization"
+        ],
+        "img": "../src/assets/products/social-media.png"
+    },
+    {
+        "id": 6,
+        "name": "Email Marketing AI",
+        "description": "Write high-converting email campaigns and automate your outreach.",
+        "price": 25,
+        "period": "Mo",
+        "tag": "New",
+        "tagType": "new",
+        "features": [
+        "Email templates",
+        "A/B testing",
+        "Automation tools"
+        ],
+        "img": "../src/assets/products/writing_2327400 1.png"
+    },
+    {
+        "id": 7,
+        "name": "AI Video Creator",
+        "description": "Create professional videos with AI voiceovers and editing tools.",
+        "price": 59,
+        "period": "monthly",
+        "tag": "Popular",
+        "tagType": "popular",
+        "features": [
+        "Auto subtitles",
+        "Voiceover generator",
+        "HD export"
+        ],
+        "img": "../src/assets/products/design-tool.png"
+    },
+    {
+        "id": 8,
+        "name": "SEO Optimizer AI",
+        "description": "Boost your website ranking with AI-powered SEO recommendations.",
+        "price": 35,
+        "period": "monthly",
+        "tag": "Best Seller",
+        "tagType": "best-seller",
+        "features": [
+        "Keyword analysis",
+        "Content scoring",
+        "Competitor insights"
+        ],
+        "img": "../src/assets/products/operation.png"
+    }
+]
