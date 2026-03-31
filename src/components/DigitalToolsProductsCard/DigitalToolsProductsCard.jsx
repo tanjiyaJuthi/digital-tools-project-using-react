@@ -1,5 +1,5 @@
 import { toast } from "react-toastify";
-import check from "../../assets/check.png";
+import check from "/assets/check.png";
 
 const DigitalToolsProductsCard = ({ 
   product,

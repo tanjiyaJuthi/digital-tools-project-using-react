@@ -1,7 +1,7 @@
 import React from 'react';
-import user from "../../assets/user.png";
-import box from "../../assets/box.png";
-import rocket from "../../assets/rocket.png";
+import user from "/assets/user.png";
+import box from "/assets/box.png";
+import rocket from "/assets/rocket.png";
 
 const GetStarted = () => {
     return (

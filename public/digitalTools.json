@@ -12,7 +12,7 @@
         "50+ writing templates",
         "Grammar checker"
         ],
-        "img": "../src/assets/products/design-tool.png"
+        "img": "./assets/products/design-tool.png"
     },
     {
         "id": 2,
@@ -27,7 +27,7 @@
         "ATS optimization",
         "Export to PDF"
         ],
-        "img": "../src/assets/products/operation.png"
+        "img": "./assets/products/operation.png"
     },
     {
         "id": 3,
@@ -42,7 +42,7 @@
         "HD downloads",
         "Style customization"
         ],
-        "img": "../src/assets/products/portfolio.png"
+        "img": "./assets/products/portfolio.png"
     },
     {
         "id": 4,
@@ -57,7 +57,7 @@
         "Hashtag generator",
         "Post scheduler"
         ],
-        "img": "../src/assets/products/shopping-cart.png"
+        "img": "./assets/products/shopping-cart.png"
     },
     {
         "id": 5,
@@ -72,7 +72,7 @@
         "Auto debugging",
         "Code optimization"
         ],
-        "img": "../src/assets/products/social-media.png"
+        "img": "./assets/products/social-media.png"
     },
     {
         "id": 6,
@@ -87,7 +87,7 @@
         "A/B testing",
         "Automation tools"
         ],
-        "img": "../src/assets/products/writing_2327400 1.png"
+        "img": "./assets/products/writing_2327400 1.png"
     },
     {
         "id": 7,
@@ -102,7 +102,7 @@
         "Voiceover generator",
         "HD export"
         ],
-        "img": "../src/assets/products/design-tool.png"
+        "img": "./assets/products/design-tool.png"
     },
     {
         "id": 8,
@@ -117,6 +117,6 @@
         "Content scoring",
         "Competitor insights"
         ],
-        "img": "../src/assets/products/operation.png"
+        "img": "./assets/products/operation.png"
     }
 ]

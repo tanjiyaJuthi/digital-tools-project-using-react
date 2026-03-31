@@ -1,7 +1,7 @@
 import React from 'react';
-import banner from '../../assets/banner.png';
+import banner from '/assets/banner.png';
 import { CiPlay1 } from "react-icons/ci";
-import circle from '../../assets/circle.png';
+import circle from '/assets/circle.png';
 
 const HeroContainer = () => {
     return (
