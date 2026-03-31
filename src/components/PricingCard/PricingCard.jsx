@@ -46,7 +46,7 @@ const PricingCard = ({ pricing }) => {
                 ))}
             </ul>
 
-            <button className={`py-4 w-full rounded-4xl mt-auto ${pricing.tag !== null ? 'bg-white text-[##4F39F6]' : 'primary-btn'}`}>{pricing.buttonText}</button>
+            <button className={`py-4 w-full rounded-4xl mt-auto ${pricing.tag !== null ? 'bg-white text-[#4F39F6]' : 'primary-btn'}`}>{pricing.buttonText}</button>
         </div>
     );
 };
