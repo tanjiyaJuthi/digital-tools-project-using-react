@@ -6,6 +6,7 @@
 
 ## Feature
 <ul>
+    <li>Product listing</li>
     <li>Switching between tabs</li>
     <li>Add or remove product to cart using same button</li>
     <li>Remove product from cart</li>
