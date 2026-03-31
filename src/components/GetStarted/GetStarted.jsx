@@ -6,7 +6,7 @@ import rocket from "../../assets/rocket.png";
 const GetStarted = () => {
     return (
         <div className="bg-[#F9FAFC]">
-            <div className="max-w-300 mx-auto py-10 px-5 lg:px-0">
+            <div className="max-w-300 mx-auto py-10 lg:py-21.5 px-5 lg:px-0">
                 <div className="text-center">
                     <h4 className="font-extrabold text-[30px] lg:text-[48px]">Get Started in 3 Steps</h4>
                     <p className="gray-color text-sm lg:text-normal">Start using premium digital tools in minutes, not hours.</p>

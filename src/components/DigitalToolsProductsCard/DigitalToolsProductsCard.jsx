@@ -69,7 +69,7 @@ const DigitalToolsProductsCard = ({
 
       <button 
         onClick={handleBuyNow}
-        className="btn primary-btn w-full rounded-4xl py-3.75  mt-auto"
+        className={`btn w-full rounded-4xl py-3.75 mt-auto ${boughtProduct ? '' : 'primary-btn'}`}
       >
         {
           boughtProduct ? 'Added to cart' : 'Buy Now'
